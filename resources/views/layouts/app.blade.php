@@ -19,12 +19,32 @@
     <!-- Document Title -->
     <title>listagram - Directory Listing HTML Template</title>
 </head>
-<body>
 
-    @include('inc.navbar')
-    <div class = "container">
-    @yield('content')
-    <div>
+<body>
+    <!--Page Wrapper starts-->
+    <div class="page-wrapper fixed-footer">
+        @include('inc.navbar')
+        @yield('content')
+        <!-- Scroll to top starts-->
+        <span class="scrolltotop"><i class="ion-arrow-up-c"></i></span>
+        <!-- Scroll to top ends-->
+    </div>
+    <!--Page Wrapper ends-->
+    <!--Footer Starts-->
+    @include('inc.footer')
+    <!--Footer ends-->
+
+
+    <!--Scripts starts-->
+    <!--plugin js-->
+    <script src="js/plugin.js"></script>
+    <!--google maps-->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_8C7p0Ws2gUu7wo0b6pK9Qu7LuzX2iWY&amp;libraries=places&amp;callback=initAutocomplete">
+    </script>
+    <!--Main js-->
+    <script src="js/main.js"></script>
+    <!--Scripts ends-->
 </body>
 
 </html>
