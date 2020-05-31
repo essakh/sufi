@@ -37,7 +37,7 @@
                                 <p class="date mar-top-0">{{$article->created_at}} by <a href="#" class="text-dark">{{$article->author}}</a></p>
                             </div>
                             <br>
-                            {{$article->body}}  
+                            {!!$article->body!!}  
                         </div>
                     </div>
                     <br>

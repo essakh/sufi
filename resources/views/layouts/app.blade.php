@@ -14,6 +14,8 @@
     <link href="{{asset('css/plugin.css')}}" rel="stylesheet" />
     <!-- style CSS -->
     <link href="{{ url('/css/style.css') }}" rel="stylesheet" />
+    <!-- Dashboard CSS -->
+    <link href="{{asset('css/dashboard.css')}}" rel="stylesheet" />
     <!--color switcher css-->
     <link rel="stylesheet" href="{{asset('css/skin-aqua.css')}}" media="screen" id="style-colors" />
     <!-- Document Title -->
@@ -24,6 +26,7 @@
     <!--Page Wrapper starts-->
     <div class="page-wrapper fixed-footer">
         @include('inc.navbar')
+        @include('inc.messages')
         @yield('content')
         <!-- Scroll to top starts-->
         <span class="scrolltotop"><i class="ion-arrow-up-c"></i></span>
@@ -45,6 +48,12 @@
     <!--Main js-->
     <script src="{{asset('js/main.js')}}"></script>
     <!--Scripts ends-->
+
+
+    <script src="{{asset('//cdn.ckeditor.com/4.13.1/standard/ckeditor.js')}}"></script>
+    <script>
+        CKEDITOR.replace( 'article-ckeditor' );
+    </script>
 </body>
 
 </html>

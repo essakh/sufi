@@ -1,6 +1,6 @@
 
        <!--header starts-->
-       <header class="header-fixed">
+       <header class="header transparent scroll-hide">
    <!--Main Menu starts-->
     <div class="site-navbar-wrap v2">
         <div class="container">
