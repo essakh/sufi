@@ -14,12 +14,12 @@ class ArticlesController extends Controller
      */
     public function index()
     {
-        $articles = Article::all();
+        $articles = Article::orderBy('title', 'desc')->paginate(10);
         return view('pages.articles.index')->with('articles', $articles);
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Show the form for creating a new resource
      *
      * @return \Illuminate\Http\Response
      */
@@ -47,7 +47,8 @@ class ArticlesController extends Controller
      */
     public function show($id)
     {
-        //
+        $article = Article::find($id);
+        return view('pages.articles.show')->with('article', $article);
     }
 
     /**

@@ -5,19 +5,19 @@
     <!-- Metas -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="LionCoders" />
+    <meta name="author" content="Essa Khan" />
     <!-- Links -->
     <link rel="icon" type="image/png" href="#" />
     <!-- google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
+    <link href="{{asset('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800')}}" rel="stylesheet">
     <!-- Plugins CSS -->
-    <link href="css/plugin.css" rel="stylesheet" />
+    <link href="{{asset('css/plugin.css')}}" rel="stylesheet" />
     <!-- style CSS -->
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="{{ url('/css/style.css') }}" rel="stylesheet" />
     <!--color switcher css-->
-    <link rel="stylesheet" href="css/switcher/skin-aqua.css" media="screen" id="style-colors" />
+    <link rel="stylesheet" href="{{asset('css/skin-aqua.css')}}" media="screen" id="style-colors" />
     <!-- Document Title -->
-    <title>listagram - Directory Listing HTML Template</title>
+    <title>Authentic Sufism</title>
 </head>
 
 <body>
@@ -37,13 +37,13 @@
 
     <!--Scripts starts-->
     <!--plugin js-->
-    <script src="js/plugin.js"></script>
+    <script src="{{asset('js/plugin.js')}}"></script>
     <!--google maps-->
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_8C7p0Ws2gUu7wo0b6pK9Qu7LuzX2iWY&amp;libraries=places&amp;callback=initAutocomplete">
     </script>
     <!--Main js-->
-    <script src="js/main.js"></script>
+    <script src="{{asset('js/main.js')}}"></script>
     <!--Scripts ends-->
 </body>
 
