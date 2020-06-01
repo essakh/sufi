@@ -28,17 +28,6 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="row pad-tb-50 align-items-center">
-                    <div class="col-lg-7">
-                    </div>
-                    <div class="col-lg-2 col-sm-4 col-12">
-                    </div>
-                    <div class="col-lg-3 col-sm-8 col-12">
-                        <div class="item-element res-box  text-right xs-left">
-                            <p>Showing <span>1-15 of 69</span> Listings</p>
-                        </div>
-                    </div>
-                </div>
                 <div class="item-wrapper">
                     <div class="tab-content">
                         @if(count($articles) > 0)
@@ -62,14 +51,14 @@
                                 </div>
                                 <div class="col-md-6 no-pad-lr">
                                     <div class="trending-title-box">
-                                        <h5>Preview</h5>
+                                        <h6>Preview</h6>
                                         <div class="comment more">
                                             @php
-                                            $string = strip_tags($article->body);
-                                            if (strlen($string) > 200) {
+                                            $string = $article->body;
+                                            if (strlen($string) > 300) {
     
                                             // truncate string
-                                            $stringCut = substr($string, 0, 200);
+                                            $stringCut = substr($string, 0, 300);
                                             $endPoint = strrpos($stringCut, ' ');
     
                                             //if the string doesn't contain any space then it will cut without word basis.
@@ -79,7 +68,7 @@
                                             echo $string;
             
                                             @endphp
-                                            <a style="color:blue" href="/articles/{{$article->id}}"><br> ...Read More</a>
+                                            <a  style="color:blue" href="/articles/{{$article->id}}"><br> ...Read More</a>
                                         </div>
                                   
                                     </div>

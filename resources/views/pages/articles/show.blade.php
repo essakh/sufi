@@ -50,7 +50,24 @@
                                         <span>Back to Articles</span>
                                     </a>
                                 </div>
+                                
                             </div>
+                           <a style="color:blue" href="/articles/{{$article->id}}/edit"> <h6> Edit</h6> </a>
+                            <hr>
+                            <form action="/articles/{{$article->id}}" method="POST" class="float-right">
+                                {{ method_field('DELETE') }}
+        
+                                <div class="form-group">
+                                    <input type="hidden" name="_token" value="{{ csrf_token() }}">
+        
+        
+        
+                                </div>
+                                <button type="submit" class="btn btn-danger">Delete this article</button>
+                                <!-- Edit button -->
+                               
+                            </form>
+                           
                         </div>
                     </div>
                 </article>
