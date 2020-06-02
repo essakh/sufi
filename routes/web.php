@@ -24,8 +24,11 @@ Route::get('/', 'PagesController@index');
 Route::resource('articles', 'ArticlesController');
 Auth::routes();
 
+Route::resource('audio', 'AudioController');
+Auth::routes();
+
 Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/dashboard', 'DashboardController@index');
