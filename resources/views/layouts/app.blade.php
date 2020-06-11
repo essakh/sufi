@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Essa Khan" />
      <!-- CSRF Token -->
-     <meta name="csrf-token" content="{{ csrf_token() }}">
+<meta name="csrf-token" vale="{{ csrf_token() }}" content="{{ csrf_token() }}">
 
     <!-- Links -->
     <link rel="icon" type="image/png" href="#" />
@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="{{asset('css/skin-aqua.css')}}" media="screen" id="style-colors" />
     <!-- Document Title -->
     <title>Authentic Sufism</title>
+
+
 </head>
 
 <body>
