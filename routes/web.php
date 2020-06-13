@@ -18,6 +18,10 @@ use Illuminate\Support\Facades\Route;
 //     return 'hello world';
 // });
 
+Route::get('/youtube', function () {
+    //return view('welcome');
+    return view('pages.youtube.home');
+});
  
 Route::get('/', 'PagesController@index');
 

@@ -20,6 +20,8 @@
     <link href="{{asset('css/dashboard.css')}}" rel="stylesheet" />
     <!--color switcher css-->
     <link rel="stylesheet" href="{{asset('css/skin-aqua.css')}}" media="screen" id="style-colors" />
+    <!--color switcher css-->
+    <link href="{{asset('css/app.css')}}" rel="stylesheet" />
     <!-- Document Title -->
     <title>Authentic Sufism</title>
 
@@ -52,6 +54,10 @@
     <!--Main js-->
     <script src="{{asset('js/main.js')}}"></script>
     <!--Scripts ends-->
+
+    <!--vue js-->
+    <script src="{{asset('js/app.js')}}"></script>
+    <!--vue ends-->
 
 
     <script src="{{asset('//cdn.ckeditor.com/4.13.1/standard/ckeditor.js')}}"></script>
