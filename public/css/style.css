@@ -45,7 +45,6 @@
     30 Preloader
     31 Map marker
     32 Responsive
-    33 MY OWN
 -------------------------------------------------------------*/
 
 
@@ -1929,7 +1928,7 @@ ul.list-inline li {
     background-position: top;
     height: 100%;
     padding: 15rem 0 12.5rem;
-    background-image: url("../images/header/hero-1.jpg");
+    background-image: url("../images/header/brown.jpg");
     transition: all 0.5s ease-in-out;
     background-repeat: no-repeat;
     background-color: #fff;
@@ -8639,6 +8638,48 @@ span.infobox_rate {
     }
 }
 
+.light-brown-bar {
+    background: -webkit-linear-gradient(top, #a7a75f 33%, #767637 135%, #808041 1);
+    background: -o-linear-gradient(top, #a7a75f 33%, #767637 135%, #808041 100%);
+    background: -ms-linear-gradient(top, #a7a75f 33%, #767637 135%, #808041 100%);
+    background: -moz-linear-gradient(top, #a7a75f 33%, #767637 135%, #808041 100%);
+    background: linear-gradient(to bottom, #a7a75f 33%, #767637 135%, #808041 100%);
+    height: 7px;
+}
+
+.navbar {
+    background: -webkit-linear-gradient(top, #a7a75f 33%, #767637 135%, #808041 1);
+    background: -o-linear-gradient(top, #a7a75f 33%, #767637 135%, #808041 100%);
+    background: -ms-linear-gradient(top, #a7a75f 33%, #767637 135%, #808041 100%);
+    background: -moz-linear-gradient(top, #a7a75f 33%, #767637 135%, #808041 100%);
+    background: linear-gradient(to bottom, #a7a75f 33%, #767637 135%, #808041 100%);
+}
+
+.top-brown-bar {
+    background: -webkit-linear-gradient(top, #72461a 0%, #4e3116 100%);
+    background: -o-linear-gradient(top, #72461a 0%, #4e3116 100%);
+    background: -ms-linear-gradient(top, #72461a 0%, #4e3116 100%);
+    background: -moz-linear-gradient(top, #72461a 0%, #4e3116 100%);
+    background: linear-gradient(to bottom, #72461a 0%, #4e3116 100%);
+    height: 10px;
+}
+
+.logo-bar {
+    background-image: url(https://7.cdn.tazkia.org/ur/assets/images/green-bg-pattern.jpg);
+    background-repeat: repeat;
+}
+
+#header_menu_bottom_line_normal {
+    background-position: 0 -120px;
+}
+#header_menu_bottom_line_normal, #header_menu_bottom_line_selected {
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 7px;
+    margin-top: -1px;
+}
+
+
 /*@media only screen (max-width:767px) and(orientation:landscape){
 
     .hero-title.v2,
@@ -8647,11 +8688,3 @@ span.infobox_rate {
     }
 
 }*/
-
-/*-----------------------------------------------------------
-            MY OWN
--------------------------------------------------------------*/
-
-body { 
-    padding-top: 65px; 
-}

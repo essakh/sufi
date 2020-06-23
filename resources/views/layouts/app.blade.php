@@ -19,9 +19,7 @@
     <!-- Dashboard CSS -->
     <link href="{{asset('css/dashboard.css')}}" rel="stylesheet" />
     <!--color switcher css-->
-    <link rel="stylesheet" href="{{asset('css/skin-aqua.css')}}" media="screen" id="style-colors" />
-    <!--color switcher css-->
-    <link href="{{asset('css/app.css')}}" rel="stylesheet" />
+    <link rel="stylesheet" href="{{asset('css/switcher/skin-green.css')}}" media="screen" id="style-colors" />
     <!-- Document Title -->
     <title>Authentic Sufism</title>
 
@@ -33,7 +31,11 @@
     <div class="page-wrapper fixed-footer">
         @include('inc.navbar')
         @include('inc.messages')
-        @yield('content')
+        
+        
+        <div style="background-color: #D7D5B1">
+         @yield('content')
+        </div>
         <!-- Scroll to top starts-->
         <span class="scrolltotop"><i class="ion-arrow-up-c"></i></span>
         <!-- Scroll to top ends-->
@@ -55,9 +57,6 @@
     <script src="{{asset('js/main.js')}}"></script>
     <!--Scripts ends-->
 
-    <!--vue js-->
-    <script src="{{asset('js/app.js')}}"></script>
-    <!--vue ends-->
 
 
     <script src="{{asset('//cdn.ckeditor.com/4.13.1/standard/ckeditor.js')}}"></script>

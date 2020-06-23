@@ -2,7 +2,7 @@
 
 @section('content')
 <!--Breadcrumb section starts-->
-<div class="breadcrumb-section" style="background-image: url(images/breadcrumb/breadcrumb-2.jpg)">
+<div class="breadcrumb-section logo-bar" style="background-image: url(images/breadcrumb/green.jpg)">
     <div class="overlay op-5"></div>
     <div class="container">
         <div class="row align-items-center  pad-top-80">
@@ -24,25 +24,25 @@
 </div>
 <!--Breadcrumb section ends-->
 <!--Listing filter starts-->
-<div class="filter-wrapper style1 section-padding">
+<div class="filter-wrapper style1 section-padding" >
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="item-wrapper">
-                    <div class="tab-content">
+                    <div class="tab-content" >
                         @if(count($articles) > 0)
                         @foreach($articles as $article)
-                        <div id="list-view" class="tab-pane active product-list">
-                            <div class="row trending-place-item">
+                        <div id="list-view" class="tab-pane active product-list" >
+                            <div class="row trending-place-item" style="background-color: #fffce0">
                                 <div class="col-md-6 no-pad-lr">
-                                    <div class="trending-title-box">
+                                    <div class="trending-title-box" >
                                         <h4><a href="/articles/{{$article->id}}">{{$article->title}}</a></h4>
                                         <hr>
                                         <ul class="trending-address">
                                             <li><i>by</i>
                                                 <p>{{$article->author}}</p>
                                             </li>
-                                            <li><i class="ion-ios-telephone"></i>
+                                            
                                                 <p>{{$article->created_at}}</p>
                                             </li>
                                         </ul>

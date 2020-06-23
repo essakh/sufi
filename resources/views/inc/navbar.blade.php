@@ -1,37 +1,34 @@
 <!--header starts-->
 <header class="header transparent scroll-hide">
+    <div class="top-brown-bar row ml-0 mr-0">
+    </div>
     <!--Main Menu starts-->
-    <div class="site-navbar-wrap v2">
+    <div class="site-navbar-wrap v2 navbar">
         <div class="container">
             <div class="site-navbar">
                 <div class="row align-items-center">
                     <div class="col-md-4 col-6">
-                        <a class="navbar-brand" href="/"><img src="{{asset('images/logo-black.png')}}" alt="logo"
+                        <a class="navbar-brand" href="/"><img src="{{asset('images/tazkia_logo.png')}}" alt="logo"
                                 class="img-fluid"></a>
                     </div>
                     <div class="col-md-8 col-6">
                         <nav class="site-navigation float-left">
                             <div class="container">
                                 <ul class="site-menu js-clone-nav d-none d-lg-block">
-                                    <li class="no-children">
-                                        <a href="/articles">Articles & Announcements</a>
-                                    </li>
-                                    <li class="no-children">
-                                        <a href="#">Lectures</a>
+                                    <li class="has-children">
+                                        <a href="/articles">Articles</a>
                                     </li>
                                     <li class="has-children">
-                                        <a href="#">About</a>
+                                        <a>About</a>
                                         <ul class="dropdown">
                                             <li class="has-children">
-                                                <a href="#">Spiritual Guides</a>
+                                                <a>Spiritual Guides</a>
                                                 <ul class="dropdown sub-menu">
-                                                    <li><a href="list-fullwidth.html">Shaykh Dr. Syed Shah Shabbir Ahmad
-                                                            Kaka Khel Naqshbandi (db)</a></li>
-                                                    <li><a href="list-fullwidth-map.html">Shaykh Syed Farooq Al-Hassani
-                                                            Naqshbandi (db)</a></li>
+                                                    <li><a href="list-fullwidth.html">Shaykh Dr. Shabbir Ahmad Kaka Khel (db)</a></li>
+                                                    <li><a href="list-fullwidth-map.html">Shaykh Syed Farooq Al-Hassani (db)</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="#">Khanqah Rahamkaria Imdadia UK</a></li>
+                                            <li><a href="/khanqah">Khanqah Rahamkaria Imdadia UK</a></li>
                                             <li><a href="#">The Golden Chain</a></li>
                                             <li><a href="#">Contact Us</a></li>
                                         </ul>
@@ -39,17 +36,7 @@
                                     <li class="has-children">
                                         <a href="#">Seekers</a>
                                         <ul class="dropdown">
-                                            <li class="has-children">
-                                                <a href="#">Spiritual Guides</a>
-                                                <ul class="dropdown sub-menu">
-                                                    <li><a href="list-fullwidth.html">Shaykh Dr. Syed Shah Shabbir Ahmad
-                                                            Kaka Khel Naqshbandi</a></li>
-                                                    <li><a href="list-fullwidth-map.html">Shaykh Syed Farooq Al-Hassani
-                                                            Naqshbandi</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Khanqah Rahamkaria Imdadia UK</a></li>
-                                            <li><a href="#">Contact Us</a></li>
+                                            <li><a href="#">Zikr and Muraqabah Method</a></li>
                                         </ul>
                                     </li>
                                     
@@ -69,10 +56,6 @@
                                     </li>
                                     {{-- <li class="d-lg-none"><a class="btn v1" href="add-listing.html">Add Listing <i class="ion-plus-round"></i></a></li> --}}
                                
-                               
-                               
-                               
-                               
                                 </ul>
                             </div>
                         </nav>
@@ -82,11 +65,12 @@
                             </a>
                         </div>
                         <div class="add-list float-right">
-                            {{-- <a class="btn v8" href="add-listing.html">Add Listing <i class="ion-plus-round"></i></a> --}}
+                            <a class="btn v8" href="https://www.youtube.com/channel/UCIza3CH8VwACYJdVx2hzqAw?view_as=subscriber"><i class="ion-social-youtube"></i> Youtube Lectures</a>
                         </div>
                     </div>
                 </div>
             </div>
+            
             <!--mobile-menu starts -->
             <div class="site-mobile-menu">
                 <div class="site-mobile-menu-header">
@@ -98,6 +82,9 @@
             </div>
             <!--mobile-menu ends-->
         </div>
+       
+    </div>
+    <div class="light-brown-bar">
     </div>
     <!--Main Menu ends-->
 </header>

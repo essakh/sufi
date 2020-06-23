@@ -22,7 +22,19 @@ Route::get('/youtube', function () {
     //return view('welcome');
     return view('pages.youtube.home');
 });
+
+
+Route::get('/khanqah', function () {
+    //return view('welcome');
+    return view('pages.khanqah');
+});
  
+
+Route::get('/contact', function () {
+    //return view('welcome');
+    return view('pages.contactus');
+});
+
 Route::get('/', 'PagesController@index');
 
 Route::resource('articles', 'ArticlesController');
