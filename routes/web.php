@@ -35,6 +35,11 @@ Route::get('/contact', function () {
     return view('pages.contactus');
 });
 
+Route::get('/zikrmethod', function () {
+    //return view('welcome');
+    return view('pages.zikrmethod');
+});
+
 Route::get('/', 'PagesController@index');
 
 Route::resource('articles', 'ArticlesController');

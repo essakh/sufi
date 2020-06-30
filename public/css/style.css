@@ -1565,6 +1565,13 @@ ul.list-inline li {
     font-weight: 300;
 }
 
+.no-children {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "poppins", sans-serif;
+
+}
+
 .site-navbar .site-navigation .site-menu .has-children>a {
     position: relative;
     padding-right: 20px;
@@ -1622,6 +1629,7 @@ ul.list-inline li {
     border-radius: 2px;
 
 }
+
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown li {
     position: relative;
@@ -8680,6 +8688,8 @@ span.infobox_rate {
 }
 
 
+
+
 /*@media only screen (max-width:767px) and(orientation:landscape){
 
     .hero-title.v2,
@@ -8688,3 +8698,160 @@ span.infobox_rate {
     }
 
 }*/
+
+
+#content_new {
+    width: 76%;
+    margin: auto;
+}
+
+.heading_1 {
+    font-size: 42px;
+    color: #304B2A;
+    margin: 0px auto;
+    height: 120px;
+    display: inline;
+    text-shadow: #ffffff 1px 1px 0px;
+}
+
+.arabic_text_emphasis {
+  
+    font-size: 28px;
+    text-align: center;
+    padding: 8px;
+    margin: 18px;
+    border: solid 1px #6B513C;
+    background-color: #BABA83;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.heading_2 {
+    font-size: 38px;
+    color: #304B2A;
+    text-shadow: #ffffff 1px 1px 0px;
+}
+
+.warning_notice {
+    padding: 5px;
+    border: solid 3px #6B513C;
+    background-color: #BABA83;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.4) 2px 3px 18px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.4) 2px 3px 18px;
+    box-shadow: rgba(0, 0, 0, 0.4) 2px 3px 18px;
+}
+
+.warning_notice_title {
+  
+    font-size: 38px;
+    line-height: 45px;
+    color: #690000;
+    text-align: center;
+}
+
+.warning_notice_text {
+
+    font-size: 23px;
+    text-align: right;
+    color: #690000;
+}
+.list_section_style_1 {
+    border: solid 2px #6B513C;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    margin-top: -10px;
+}
+
+.heading_link_3 {
+    
+    color: #121212;
+    text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+  
+    padding-right: 10px;
+    line-height: 60px;
+}
+
+.ul_style_numbered_2 {
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.li_style_numbered_2 {
+  
+    font-size: 14pt;
+    padding-bottom: 8px;
+}
+
+.tbl_1, .tbl_th_1, .tbl_td_1, .tbl_td_2 {
+    border: 1px solid #693B16;
+    
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.heading_style_1 {
+    background-color: #B0B06F;
+    padding-bottom: 3px;
+    border-bottom: solid 1px #693B16;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.double_arrow_head_downward {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    float: right;
+}
+
+.ul_style_numbered_2 {
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.li_style_numbered_2 {
+    font-family: "Jameel Noori Nastaleeq";
+    font-size: 14pt;
+    padding-bottom: 8px;
+}
+
+.tbl_1, .tbl_th_1, .tbl_td_1, .tbl_td_2 {
+    border: 1px solid #693B16;
+    font-family: "Ihsan likdood";
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.tbl_1 {
+    border-collapse: collapse;
+    text-align: right;
+    -moz-box-shadow: rgba(0, 0, 0, 0.4) 2px 3px 18px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.4) 2px 3px 18px;
+    box-shadow: rgba(0, 0, 0, 0.4) 2px 3px 18px;
+}
+
+.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  

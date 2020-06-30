@@ -30,13 +30,13 @@
                                             </li>
                                             <li><a href="/khanqah">Khanqah Rahamkaria Imdadia UK</a></li>
                                             <li><a href="#">The Golden Chain</a></li>
-                                            <li><a href="#">Contact Us</a></li>
+                                            <li><a href="/contact">Contact Us</a></li>
                                         </ul>
                                     </li>
                                     <li class="has-children">
                                         <a href="#">Seekers</a>
                                         <ul class="dropdown">
-                                            <li><a href="#">Zikr and Muraqabah Method</a></li>
+                                            <li><a href="/zikrmethod">Zikr and Muraqabah Method</a></li>
                                         </ul>
                                     </li>
                                     
